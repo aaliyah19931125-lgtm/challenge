@@ -13,6 +13,7 @@ class ApiErrorWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print("ApiErrorWidget build.");
     return Container(
       padding: padding,
       child: Center(
